@@ -1,0 +1,16 @@
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\bin\Debug\net6.0-windows\formTPSthread12-10.exe
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\bin\Debug\net6.0-windows\formTPSthread12-10.deps.json
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\bin\Debug\net6.0-windows\formTPSthread12-10.runtimeconfig.json
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\bin\Debug\net6.0-windows\formTPSthread12-10.dll
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\bin\Debug\net6.0-windows\formTPSthread12-10.pdb
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12_10.Form1.resources
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12-10.csproj.GenerateResource.cache
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12-10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12-10.AssemblyInfoInputs.cache
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12-10.AssemblyInfo.cs
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12-10.csproj.CoreCompileInputs.cache
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12-10.dll
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\refint\formTPSthread12-10.dll
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12-10.pdb
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\formTPSthread12-10.genruntimeconfig.cache
+C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\obj\Debug\net6.0-windows\ref\formTPSthread12-10.dll
