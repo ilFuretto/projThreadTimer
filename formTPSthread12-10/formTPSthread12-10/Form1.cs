@@ -3,10 +3,12 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Drawing.Text;
 using System.Timers;
+using Microsoft.VisualBasic.ApplicationServices;
+using System.Reflection.Emit;
 
 namespace formTPSthread12_10
 {
-    //Timer timerX = new Thread;
+   
 
     public partial class Form1 : Form
     {
@@ -36,27 +38,57 @@ namespace formTPSthread12_10
             this.Controls.Add(lblTempo[cont]);
             lblTempo[cont].Text = numericUpDown1.Value.ToString();
 
-            timer[cont] = new System.Windows.Forms.Timer();
-            timer[cont].Interval = 1000;
-            timer[cont].Tick += timer1_Tick;
-            timer[cont].Tag = cont;
-            timer[cont].Start();
+            int i = cont;
+            Thread threadTimer = new Thread(() => Countdown(i));
+            threadTimer.Start();
             cont++;
-            //numericUpDown1.Visible = false;
-            //button1.Visible = false;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Countdown(int i)
         {
-            int n = Convert.ToInt16((sender as System.Windows.Forms.Timer).Tag);
-            lblTempo[n].Text = (Convert.ToInt16(lblTempo[n].Text) - 1).ToString();
-            if (lblTempo[n].Text == "0")
+            int tempoRimanente = Convert.ToInt32(lblTempo[i].Text);
+
+            
+            while (tempoRimanente > 0)
             {
-                timer[n].Stop();
-                MessageBox.Show("BOOM");
+                Thread.Sleep(1000);
+                tempoRimanente--;
+
+                this.Invoke(() =>
+                {
+                    lblTempo[i].Text = tempoRimanente.ToString();
+                });
             }
+
+            
+            this.Invoke(() =>
+            {
+                MostraImmagine();
+            });
         }
-        
+
+        private void MostraImmagine()
+        {
+            Form formBoom = new Form();
+            formBoom.Size = new System.Drawing.Size(275, 255);
+
+
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "immagini", "boom.png"));
+            pictureBox.Dock = DockStyle.Fill;
+
+            Button buttonOk = new Button();
+            buttonOk.Text = "OK";
+            buttonOk.Dock = DockStyle.Bottom;
+            buttonOk.Click += (sender, e) => formBoom.Close();
+
+            formBoom.Controls.Add(pictureBox);
+            formBoom.Controls.Add(buttonOk);
+
+            formBoom.ShowDialog();
+        }
     }
 }
-//AGGIUNGI IMMAGINE BOOM E THREAD
+
+
+

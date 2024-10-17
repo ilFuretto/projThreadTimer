@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("formTPSthread12-10")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e656fd381e19f6b40b75571e90cfce7a1ea38ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("formTPSthread12-10")]
 [assembly: System.Reflection.AssemblyTitleAttribute("formTPSthread12-10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

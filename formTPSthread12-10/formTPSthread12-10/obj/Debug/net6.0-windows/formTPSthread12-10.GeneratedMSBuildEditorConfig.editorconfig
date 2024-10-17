@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = formTPSthread12_10
-build_property.ProjectDir = C:\Users\colombo.21191\Desktop\formTPSthread12-10\formTPSthread12-10\
+build_property.ProjectDir = C:\Users\admin\Desktop\projThreadTimer\formTPSthread12-10\formTPSthread12-10\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
