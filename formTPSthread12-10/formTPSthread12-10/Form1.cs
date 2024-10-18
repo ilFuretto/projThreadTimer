@@ -12,7 +12,6 @@ namespace formTPSthread12_10
 
     public partial class Form1 : Form
     {
-        private System.Windows.Forms.Timer[] timer;
         private System.Windows.Forms.Label[] lblTempo;
         private int cont = 0;
         public Form1()
@@ -24,7 +23,6 @@ namespace formTPSthread12_10
 
         private void Form1_Load(object sender, EventArgs e)
         {
-        timer = new System.Windows.Forms.Timer[100];
         lblTempo = new System.Windows.Forms.Label[100];
 
     }

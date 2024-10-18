@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\projThreadTimer\\formTPSthread12-10\\formTPSthread12-10\\formTPSthread12-10.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\projThreadTimer\\formTPSthread12-10\\formTPSthread12-10\\formTPSthread12-10.csproj",
       "projectName": "formTPSthread12-10",
-      "projectPath": "C:\\Users\\admin\\Desktop\\projThreadTimer\\formTPSthread12-10\\formTPSthread12-10\\formTPSthread12-10.csproj",
+      "projectPath": "C:\\Users\\admin\\projThreadTimer\\formTPSthread12-10\\formTPSthread12-10\\formTPSthread12-10.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\projThreadTimer\\formTPSthread12-10\\formTPSthread12-10\\obj\\",
+      "outputPath": "C:\\Users\\admin\\projThreadTimer\\formTPSthread12-10\\formTPSthread12-10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
